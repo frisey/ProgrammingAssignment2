@@ -2,7 +2,7 @@
 ## Together they can be used to avoid the repeated computation of the inverse of a matrix
 ## makeCacheMatrix creates a list of values of functions that are created inside of makeCacheMatrix
 ## cacheSolve either retrieves the already computed inverse or computes the inverse and saves it in 
-## cache so that it can be retrieved and does not need to be retrieved
+## cache so that it can be retrieved and does not need to be retrieved. 
 
 makeCacheMatrix <- function(x = matrix()) {
   inv_x <- NULL #creates null object inv_x
